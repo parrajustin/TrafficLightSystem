@@ -1,0 +1,35 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+.u_full_width {
+  width: 100%;
+}
+.u_full_height {
+  height: 100%;
+}
+.u_float_left {
+  float: left;
+}
+.u_float_right {
+  float: right;
+}
+.u_hidden {
+  visibility: hidden;
+}
+.u_gone {
+  display: none;
+}
+
+
+#canvasContainer {
+  width: 100%;
+  height: 50%;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+}

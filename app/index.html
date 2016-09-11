@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="assets/css/nouislider.tooltips.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body class="u_full_width u_full_height">
+    <div id="canvasContainer">
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+  <script src="./lib/includes/easeljs-0.8.2.min.js"></script>
+  <script src="./lib/includes/tweenjs-0.6.2.min.js"></script>
+  <script>
+    // You can also require other files to run in this process
+    require('./assets/js/ex-links.js')
+
+    /**
+     * Lodash lib
+     * https://lodash.com/
+     * @type {Object}
+     */
+    const _ = require( 'lodash' );
+
+    /**
+     * nouislider lib
+     * http://refreshless.com/nouislider/
+     * @type {Object}
+     */
+    const slider = require( './lib/includes/nouislider.min.js' );
+
+
+    // Main app file
+    require('./lib/app.js')
+  </script>
+</html>
